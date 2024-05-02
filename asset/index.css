@@ -1,5 +1,6 @@
 * {
-    font-family: "Dialog";
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
 }
 
 .logo {
@@ -17,6 +18,7 @@
     margin-bottom: 0;
     font-weight: 800;
     font-family: "Arial Black";
+    font-size: 30px;
 }
 
 .sub-header {
@@ -35,7 +37,7 @@
     list-style: none;
     display: inline-block;
     margin: 0;
-    font-size: 30px;
+    font-size: 10px;
 }
 
 .header-item{
@@ -63,6 +65,7 @@
 }
 
 .body-content {
+    font-weight: 500;
     padding: 20px;
     width: 50%;
 }
@@ -71,4 +74,80 @@
     float: left;
     height: 200px;
     padding-right: 50px;
+}
+
+/*---------------footer-------------------------*/
+
+.footer {
+    display: flex;
+    height: 80px;
+    background-color: #9BC69D;
+
+}
+
+.contact {
+    justify-content: space-between;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    padding: 0 0 0 10px;
+    margin: 0 20px 0 0;
+    font-size: 30px;
+}
+
+.footer-logo {
+    margin: 10px 10px 10px 40px;
+    border: 2px solid #0073B7;
+}
+
+/*--------------Responsive---------------------*/
+@media (max-width:800px) {
+    .logo{
+        display: block;
+        font-size: 40px;
+        width: 80px;
+        height: 80px;
+        padding: 0;
+        border: 3px solid #0073B7;
+    }
+    .header-list {
+        height: 0;
+        overflow: hidden;
+    }
+    .header-icon{
+        justify-content: space-between;
+        position: relative;
+        display: flex;
+        padding: 0;
+    }
+    #header-name {
+        font-size: 18px;
+    }
+
+    .body-item{
+        display: inline-block;
+        margin: 10px 30px;
+    }
+
+    .body-img {
+        display: flex; /* enables flexbox layout */
+        justify-content: space-between;
+        position: relative;
+        height: 150px;
+        padding-left: 80px;
+    }
+    .body-content {
+        width: 100%;
+    }
+    .footer-logo {
+        display: block;
+        font-size: 40px;
+        width: 40px;
+        height: 40px;
+        margin: 10px 10px 0 40px;
+    }
+    .sub-contact {
+        font-size: 10px;
+    }
+
 }
