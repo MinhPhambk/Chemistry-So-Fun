@@ -10,6 +10,7 @@
   <ItemGroup>
     <Folder Include="Views\Sreen9\" />
     <Folder Include="Views\Screen1\" />
+    <Folder Include="wwwroot\css\asset\image\" />
   </ItemGroup>
 
 </Project>
