@@ -18,7 +18,7 @@ namespace Chemistry_So_Fun.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public ActionResult AboutUs()
         {
             return View();
         }

@@ -13,4 +13,8 @@
     <Folder Include="wwwroot\css\asset\image\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.2" />
+  </ItemGroup>
+
 </Project>

@@ -2,7 +2,7 @@ html {
   font-size: 14px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 200px) {
   html {
     font-size: 16px;
   }
@@ -18,5 +18,5 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+  margin-bottom: 0px;
 }

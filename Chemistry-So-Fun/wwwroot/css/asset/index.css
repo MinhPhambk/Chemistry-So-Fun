@@ -122,6 +122,8 @@
     }
     #header-name {
         font-size: 18px;
+        padding: 10px 0 10px 0;
+        top: 50px;
     }
 
     .body-item{
