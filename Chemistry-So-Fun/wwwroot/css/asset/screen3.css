@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
 }
-  
+
 header {
     position: relative;
     display: flex;
@@ -11,15 +11,15 @@ header {
     height: 210px;
 }
 
-header h1 {
-    font-size: 64px;
-    text-transform: uppercase;
-}
+    header h1 {
+        font-size: 64px;
+        text-transform: uppercase;
+    }
 
-header a {
-    font-size: 36px;
-}
-  
+    header a {
+        font-size: 36px;
+    }
+
 .header-top,
 .header-bottom {
     flex: 1;
@@ -40,7 +40,7 @@ header a {
     justify-content: space-between;
     align-items: center;
 }
-  
+
 nav {
     background-color: rgba(229, 229, 229, 1);
     padding: 10px;
@@ -48,35 +48,35 @@ nav {
     width: 50%;
     margin: 0 22%;
 }
-  
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-}
-  
-nav li {
-    margin-right: 20px;
-}
-  
-nav a {
-    text-decoration: none;
-    color: black;
-    transition: color 0.2s ease;
-    font-size: larger;
-    text-transform: uppercase;
-}
-  
-nav a:hover {
-    color: #23527c;
-}
-  
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav li {
+        margin-right: 20px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: black;
+        transition: color 0.2s ease;
+        font-size: larger;
+        text-transform: uppercase;
+    }
+
+        nav a:hover {
+            color: #23527c;
+        }
+
 nav {
     display: inline-block;
 }
-  
+
 .logo-header {
     position: absolute;
     left: 3%;
@@ -86,11 +86,11 @@ nav {
     display: flex;
     justify-content: center;
 }
-  
-.logo-header img {
-    max-width: 100%;
-    height: auto;
-}
+
+    .logo-header img {
+        max-width: 100%;
+        height: auto;
+    }
 
 .image-container {
     display: flex;
@@ -98,10 +98,10 @@ nav {
     margin-right: 3%;
 }
 
-.image-container img {
-    margin-right: 10px;
-    object-fit: cover;
-}
+    .image-container img {
+        margin-right: 10px;
+        object-fit: cover;
+    }
 
 .header h1 {
     color: rgba(0, 115, 183, 1);
@@ -113,7 +113,7 @@ footer {
 }
 
 .container {
-    width: 100%; 
+    width: 100%;
     margin-right: auto;
     margin-left: 5%;
     padding-right: 15px;
@@ -128,15 +128,15 @@ footer {
 }
 
 .align-items-center {
-    align-items: center; 
+    align-items: center;
 }
 
 .logo-footer img {
-    display: block; 
+    display: block;
 }
 
 .info p {
-    margin: 20px; 
+    margin: 20px;
 }
 
 .chemistry-color {
@@ -152,7 +152,7 @@ footer a {
 
 .logo-container {
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
 
 .logo-footer {
@@ -164,32 +164,32 @@ main {
     flex: 1;
     display: flex;
     position: relative;
-  }
-  
+}
+
 .sidebar {
     width: 20%;
     position: sticky;
     top: 50px;
-    bottom: 50px; 
+    bottom: 50px;
     background-color: rgba(242, 242, 242, 1);
     padding: 20px;
 }
-  
+
 .content {
     width: 80%;
     padding: 20px;
     box-sizing: border-box;
 }
-  
+
 @media (max-width: 768px) {
     .sidebar {
-      width: 100%;
-      position: relative;
-      margin-bottom: 20px;
+        width: 100%;
+        position: relative;
+        margin-bottom: 20px;
     }
-  
+
     .content {
-      width: 100%;
+        width: 100%;
     }
 }
 
@@ -215,28 +215,28 @@ main h2 {
 }
 
 .slide {
-    width: 80%; 
-    margin: 0 auto; 
+    width: 80%;
+    margin: 0 auto;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #fff;
-  }
-  
-  .slide h2 {
-    margin-top: 0;
-  }
-  
-  .slide p {
-    margin-bottom: 10px; 
-  }
-  
-  .slide ul {
-    list-style: none; 
-    padding: 0; 
-  }
-  
-  .slide li {
-    margin-bottom: 5px; 
-  }
+}
+
+    .slide h2 {
+        margin-top: 0;
+    }
+
+    .slide p {
+        margin-bottom: 10px;
+    }
+
+    .slide ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .slide li {
+        margin-bottom: 5px;
+    }
