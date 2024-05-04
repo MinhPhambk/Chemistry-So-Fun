@@ -2,7 +2,7 @@
 
 namespace Chemistry_So_Fun.Controllers
 {
-    public class Sreen1Controller : Controller
+    public class Screen1Controller : Controller
     {
         public IActionResult Index()
         {
