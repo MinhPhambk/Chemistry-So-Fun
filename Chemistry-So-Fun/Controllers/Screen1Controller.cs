@@ -12,5 +12,19 @@ namespace Chemistry_So_Fun.Controllers
         {
             return View();
         }
+
+        public ActionResult SC3_Slide()
+        {
+            return View();
+        }
+
+        public ActionResult SC9_Admin()
+        {
+            return View();
+        }
+        public ActionResult SC4_QuizMenu()
+        {
+            return View();
+        }
     }
 }
