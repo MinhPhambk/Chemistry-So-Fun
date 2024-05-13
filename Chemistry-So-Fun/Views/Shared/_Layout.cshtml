@@ -6,26 +6,26 @@
     <title>@ViewData["Title"] - Chemistry_So_Fun</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Chemistry_So_Fun.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="./css/asset/index.css" asp-append-version="true" />
+
+    <link rel="stylesheet" href="./css/asset/screen3.css" />
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Chemistry_So_Fun</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
+        <div>
+            <img class="rounded-circle logo " src="./css/asset/image/CHEMISTRY SO FUN.png" alt="logo page">
+        </div>
+        <h1 class="text-center fw-bold" id="header-name">CHEMISTRY SO FUN</h1>
+        <div class="sub-header">
+            <ul class="header-list">
+                <li class=" header-item fw-bold"><a>Phòng thí nghiệm 3D</a></li>
+                <li class=" header-item fw-bold"><a>Lý thuyết </a></li>
+                <li class=" header-item fw-bold"><a>Quiz</a></li>
+                <li class=" header-item fw-bold"><a>Video</a></li>
                     </ul>
+            <div class="header-icon">
+                <img class="icon" src="./css/asset/image/icon_home.png" alt="icon page">
+                <img class="icon" src="./css/asset/image/icon_profile.png" alt="icon page">
                 </div>
             </div>
         </nav>
@@ -36,9 +36,18 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - Chemistry_So_Fun - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer class="footer">
+        <img class="footer-logo rounded-circle" src="./css/asset/image/CHEMISTRY SO FUN.png" alt="logo page">
+        <div>
+            <p class="ms-3 pt-2 mb-0 fw-bold">CHEMISTRY SO FUN</p>
+            <ul class="contact">
+                <li class="sub-contact">Hà Nội, Việt Nam </li>
+                <li class="sub-contact">abc@gmail.com</li>
+            </ul>
+            <ul class="contact">
+                <li class="sub-contact">+84 123456789</li>
+                <li class="sub-contact">facebook.com/chemistrysofun</li>
+            </ul>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
