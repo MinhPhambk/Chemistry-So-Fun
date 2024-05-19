@@ -1,0 +1,500 @@
+﻿@using CSF_B.Models.BL.QuizBL
+
+@model List<QuizDTO>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- ***** Preloader Start ***** -->
+<div id="preloader">
+    <div class="jumper">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!-- ***** Preloader End ***** -->
+<!-- ***** Header Area Start ***** -->
+<header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        <img src="~/images/logo.png">
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                        <li class="scroll-to-section">
+                            <a href="@Url.Action("Index", "Home")" class="active"
+                               style="color: #fff !important;">Trang chủ</a>
+                        </li>
+                        <li><a href="@Url.Action("Lab", "Home")">Phòng thí nghiệm</a></li>
+                        <li><a href="@Url.Action("Theory", "Home")">Lý thuyết</a></li>
+                        <li><a href="@Url.Action("Quiz", "Home")">Trắc nghiệm</a></li>
+                        <li><a href="@Url.Action("Video", "Home")">Bài giảng trực tuyến</a></li>
+                    </ul>
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- ***** Header Area End ***** -->
+<!-- ***** Home Area Start ***** -->
+<div class="main-banner" id="home">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="left-content">
+                    <div class="thumb">
+                        <div class="image-container">
+                            <img src="~/images/lab_home.png">
+                        </div>
+                        <div class="inner-content">
+                            <h4>Phòng thí nghiệm 3D</h4>
+                            <div class="main-border-button scroll-to-section">
+                                <a href="#lab">Tìm hiểu ngay!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="right-content">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="right-first-image">
+                                <div class="thumb">
+                                    <div class="image-container">
+                                        <img src="~/images/theory_home.png">
+                                    </div>
+                                    <div class="inner-content">
+                                        <h4>Lý thuyết</h4>
+                                        <div class="main-border-button scroll-to-section">
+                                            <a href="#theory">Tìm hiểu ngay!</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="right-first-image">
+                                <div class="thumb">
+                                    <div class="image-container">
+                                        <img src="~/images/quiz_home.png">
+                                    </div>
+                                    <div class="inner-content">
+                                        <h4>Trắc nghiệm</h4>
+                                        <div class="main-border-button scroll-to-section">
+                                            <a href="#quiz">Tìm hiểu ngay!</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ***** Home Area End ***** -->
+<!-- ***** Lab Area Starts ***** -->
+<section class="section" id="lab">
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-heading">
+                    <h2>Phòng thí nghiệm</h2>
+                    <span>Thoả sức thí nghiệm với bộ dữ liệu đa dạng các phản ứng hoá học.</span>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="main-border-button" style="background-color: #a0c49c !important; width: fit-content !important;">
+                    <a href="@Url.Action("Lab", "Home")" style="font-weight: 700; font-size: medium;">&#8594; Vào thí nghiệm</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img class="divImg" src="~/images/bangtuanhoan.png">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+    </div>
+</section>
+<!-- ***** Lab Area Ends ***** -->
+<!-- ***** Theory Area Starts ***** -->
+<section class="section" id="theory">
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-heading">
+                    <h2>Lý thuyết</h2>
+                    <span>Cung cấp các thông tin hữu ích có thể bạn chưa biết về hoá học.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row blog">
+            <div class="col-lg-12">
+                <div id="topics" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators" id="slides">
+                        <li data-target="#topics" data-slide-to="0" class="active"></li>
+                        <li data-target="#topics" data-slide-to="1"></li>
+                        <li data-target="#topics" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner" id="alltopics">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <a href="@Url.Action("Theory", "Home", new {id = 1})">
+                                            <img class="card-img-top img-fluid mx-auto d-block" src="~/images/topic_1.png"
+                                                 alt="Image" style="max-width:100%;">
+                                            <div class="card-body centered">
+                                                <h5 class="card-text" style="color: #1f4e79; font-weight: 700;">Chủ đề 1</h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <a href="@Url.Action("Theory", "Home", new {id = 2})">
+                                            <img class="card-img-top img-fluid mx-auto d-block" src="~/images/topic_2.png"
+                                                 alt="Image" style="max-width:100%;">
+                                            <div class="card-body centered">
+                                                <h5 class="card-text" style="color: #1f4e79; font-weight: 700;">Chủ đề 2</h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <a href="@Url.Action("Theory", "Home", new {id = 3})">
+                                            <img class="card-img-top img-fluid mx-auto d-block" src="~/images/topic_3.png"
+                                                 alt="Image" style="max-width:100%;">
+                                            <div class="card-body centered">
+                                                <h5 class="card-text" style="color: #1f4e79; font-weight: 700;">Chủ đề 3</h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <a href="@Url.Action("Theory", "Home", new {id = 4})">
+                                            <img class="card-img-top img-fluid mx-auto d-block" src="~/images/topic_4.png"
+                                                 alt="Image" style="max-width:100%;">
+                                            <div class="card-body centered">
+                                                <h5 class="card-text" style="color: #1f4e79; font-weight: 700;">Chủ đề 4</h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <a href="@Url.Action("Theory", "Home", new {id = 5})">
+                                            <img class="card-img-top img-fluid mx-auto d-block" src="~/images/topic_5.png"
+                                                 alt="Image" style="max-width:100%;">
+                                            <div class="card-body centered">
+                                                <h5 class="card-text" style="color: #1f4e79; font-weight: 700;">Chủ đề 5</h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <a href="@Url.Action("Theory", "Home", new {id = 6})">
+                                            <img class="card-img-top img-fluid mx-auto d-block" src="~/images/topic_6.png"
+                                                 alt="Image" style="max-width:100%;">
+                                            <div class="card-body centered">
+                                                <h5 class="card-text" style="color: #1f4e79; font-weight: 700;">Chủ đề 6</h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <a href="@Url.Action("Theory", "Home", new {id = 7})">
+                                            <img class="card-img-top img-fluid mx-auto d-block" src="~/images/topic_7.png"
+                                                 alt="Image" style="max-width:100%;">
+                                            <div class="card-body centered">
+                                                <h5 class="card-text" style="color: #1f4e79; font-weight: 700;">Chủ đề 7</h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <a href="@Url.Action("Theory", "Home", new {id = 8})">
+                                            <img class="card-img-top img-fluid mx-auto d-block" src="~/images/topic_8.png"
+                                                 alt="Image" style="max-width:100%;">
+                                            <div class="card-body centered">
+                                                <h5 class="card-text" style="color: #1f4e79; font-weight: 700;">Chủ đề 8</h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <a href="@Url.Action("Theory", "Home", new {id = 9})">
+                                            <img class="card-img-top img-fluid mx-auto d-block" src="~/images/topic_9.png"
+                                                 alt="Image" style="max-width:100%;">
+                                            <div class="card-body centered">
+                                                <h5 class="card-text" style="color: #1f4e79; font-weight: 700;">Chủ đề 9</h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Theory Area Ends ***** -->
+<!-- ***** Quiz Area Starts ***** -->
+<br>
+<br>
+<br>
+<section class="section" id="quiz">
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-heading">
+                    <h2>Trắc nghiệm</h2>
+                    <span>Thử thách với những câu hỏi trắc nghiệm sau giờ học lý thuyết.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row blog">
+            <div class="col-lg-12">
+                <div id="topics1" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators" id="slides">
+                        <li data-target="#topics1" data-slide-to="0" class="active"></li>
+                        @for (int i = 1; i < Model.Count/3; i++)
+                        {
+                            <li data-target="#topics1" data-slide-to="@i"></li>
+                        }
+                    </ol>
+
+                    <div class="carousel-inner" id="alltopics1">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                @for (int i = 0; i < Math.Min(3, Model.Count); i++)
+                                {
+                                    <div class="col-lg-4">
+                                        <div class="card" style="height:100%!important; border-width:7px !important; border-color:#38A735!important;">
+                                            <a href="@Url.Action("Quiz", "Home", new {id = (i+1)})">
+                                                <div class="card-body centered">
+                                                    <span>
+                                                        <h5 class="card-text" style="color: #1f4e79; font-weight: 700;">
+                                                            @Model[i].Name
+                                                        </h5>
+                                                    </span>
+                                                </div>
+                                                <div class="card-body" style="padding-top:0px;">
+                                                    <span>
+                                                        <center>
+                                                            <h6 class="card-text" style="color: #1f4e79; font-weight: 700;">
+                                                                @Model[i].Description1
+                                                            </h6>
+                                                        </center>
+                                                    </span>
+                                                </div>
+                                                <div class="card-body" style="padding-top:0px;">
+                                                    <span>
+                                                        @Html.Raw(@Model[i].Description2)
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        @if (Model.Count >= 3)
+                        {
+                            for (int i = 1; i < Model.Count / 3; i++)
+                            {
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        @if (3*i < Model.Count)
+                                        {
+                                            <div class="col-lg-4">
+                                                <div class="card" style="height:100%!important; border-width:7px !important; border-color:#38A735!important;">
+                                                    <div class="card-body centered">
+                                                        <span>
+                                                            <h5 class="card-text" style="color: #1f4e79; font-weight: 700;">
+                                                                @Model[3 * i].Name
+                                                            </h5>
+                                                        </span>
+                                                    </div>
+                                                    <div class="card-body" style="padding-top:0px;">
+                                                        <span>
+                                                            <center>
+                                                                <h6 class="card-text" style="color: #1f4e79; font-weight: 700;">
+                                                                    @Model[3 * i].Description1
+                                                                </h6>
+                                                            </center>
+                                                        </span>
+                                                    </div>
+                                                    <div class="card-body" style="padding-top:0px;">
+                                                        <span>
+                                                            @Html.Raw(@Model[3 * i].Description2)
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>                                            
+                                        }
+                                        @if (3*i+1 < Model.Count)
+                                        {
+                                            <div class="col-lg-4">
+                                                <div class="card" style="height:100%!important; border-width:7px !important; border-color:#38A735!important;">
+                                                    <a href="@Url.Action("Quiz", "Home", new {id = (3*i+1)})">
+                                                        <div class="card-body centered">
+                                                            <span>
+                                                                <h5 class="card-text" style="color: #1f4e79; font-weight: 700;">
+                                                                    @Model[3 * i + 1].Name
+                                                                </h5>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card-body" style="padding-top:0px;">
+                                                            <span>
+                                                                <center>
+                                                                    <h6 class="card-text" style="color: #1f4e79; font-weight: 700;">
+                                                                        @Model[3 * i + 1].Description1
+                                                                    </h6>
+                                                                </center>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card-body" style="padding-top:0px;">
+                                                            <span>
+                                                                @Html.Raw(@Model[3 * i + 1].Description2)
+                                                            </span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        }
+                                        @if (3 * i+2 < Model.Count)
+                                        {
+                                            <div class="col-lg-4">
+                                                <div class="card" style="height:100%!important; border-width:7px !important; border-color:#38A735!important;">
+                                                    <a href="@Url.Action("Quiz", "Home", new {id = (3*i+2)})">
+                                                        <div class="card-body centered">
+                                                            <span>
+                                                                <h5 class="card-text" style="color: #1f4e79; font-weight: 700;">
+                                                                    @Model[3 * i + 2].Name
+                                                                </h5>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card-body" style="padding-top:0px;">
+                                                            <span>
+                                                                <center>
+                                                                    <h6 class="card-text" style="color: #1f4e79; font-weight: 700;">
+                                                                        @Model[3 * i + 2].Description1
+                                                                    </h6>
+                                                                </center>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card-body" style="padding-top:0px;">
+                                                            <span>
+                                                                @Html.Raw(@Model[3 * i + 2].Description2)
+                                                            </span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Quiz Area Ends ***** -->
+<!-- ***** Video Area Starts ***** -->
+<br />
+<br />
+<br />
+<br />
+<br />
+<section class="section" id="video">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Video Area Ends ***** -->
+
+<script type="module">
+
+    $(document).ready(function () {
+        /* show lightbox when clicking a thumbnail */
+        $('a.thumb').click(function (event) {
+            event.preventDefault();
+            var content = $('.modal-body');
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title);
+            content.html($(this).html());
+            $(".modal-profile").modal({ show: true });
+        });
+
+        $('#carouselExample').on('slide.bs.carousel', function (e) {
+            var $e = $(e.relatedTarget);
+            var idx = $e.index();
+            var itemsPerSlide = 3;
+            var totalItems = $('.carousel-item').length;
+
+            if (idx >= totalItems - (itemsPerSlide - 1)) {
+                var it = itemsPerSlide - (totalItems - idx);
+                for (var i = 0; i < it; i++) {
+                    if (e.direction == "left") {
+                        $('.carousel-item').eq(i).appendTo('.carousel-inner');
+                    }
+                    else {
+                        $('.carousel-item').eq(0).appendTo('.carousel-inner');
+                    }
+                }
+            }
+        });
+    });
+
+</script>

@@ -1,0 +1,1101 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CSF_B.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CSF_B.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\flex-slider.css",
+      "PackagePath": "staticwebassets\\css\\flex-slider.css"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\css\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\css\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\flexslider-icon.eot",
+      "PackagePath": "staticwebassets\\css\\fonts\\flexslider-icon.eot"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\flexslider-icon.svg",
+      "PackagePath": "staticwebassets\\css\\fonts\\flexslider-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\flexslider-icon.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\flexslider-icon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\flexslider-icon.woff",
+      "PackagePath": "staticwebassets\\css\\fonts\\flexslider-icon.woff"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\css\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\css\\fonts\\slick.eot"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\css\\fonts\\slick.svg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\css\\fonts\\slick.woff"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\css\\lightbox.css"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\owl-carousel.css",
+      "PackagePath": "staticwebassets\\css\\owl-carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\templatemo-hexashop.css",
+      "PackagePath": "staticwebassets\\css\\templatemo-hexashop.css"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\about-left-image.jpg",
+      "PackagePath": "staticwebassets\\images\\about-left-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\about-us-page-heading.jpg",
+      "PackagePath": "staticwebassets\\images\\about-us-page-heading.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\baner-right-image-01.jpg",
+      "PackagePath": "staticwebassets\\images\\baner-right-image-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\baner-right-image-02.jpg",
+      "PackagePath": "staticwebassets\\images\\baner-right-image-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\baner-right-image-03.jpg",
+      "PackagePath": "staticwebassets\\images\\baner-right-image-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\baner-right-image-04.jpg",
+      "PackagePath": "staticwebassets\\images\\baner-right-image-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\bangtuanhoan.png",
+      "PackagePath": "staticwebassets\\images\\bangtuanhoan.png"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\close.png",
+      "PackagePath": "staticwebassets\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\explore-image-01.jpg",
+      "PackagePath": "staticwebassets\\images\\explore-image-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\explore-image-02.jpg",
+      "PackagePath": "staticwebassets\\images\\explore-image-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\instagram-01.jpg",
+      "PackagePath": "staticwebassets\\images\\instagram-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\instagram-02.jpg",
+      "PackagePath": "staticwebassets\\images\\instagram-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\instagram-03.jpg",
+      "PackagePath": "staticwebassets\\images\\instagram-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\instagram-04.jpg",
+      "PackagePath": "staticwebassets\\images\\instagram-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\instagram-05.jpg",
+      "PackagePath": "staticwebassets\\images\\instagram-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\instagram-06.jpg",
+      "PackagePath": "staticwebassets\\images\\instagram-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\kid-01.jpg",
+      "PackagePath": "staticwebassets\\images\\kid-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\kid-02.jpg",
+      "PackagePath": "staticwebassets\\images\\kid-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\kid-03.jpg",
+      "PackagePath": "staticwebassets\\images\\kid-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\lab_home.png",
+      "PackagePath": "staticwebassets\\images\\lab_home.png"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\left-banner-image.jpg",
+      "PackagePath": "staticwebassets\\images\\left-banner-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\logoOnly.png",
+      "PackagePath": "staticwebassets\\images\\logoOnly.png"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\men-01.jpg",
+      "PackagePath": "staticwebassets\\images\\men-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\men-02.jpg",
+      "PackagePath": "staticwebassets\\images\\men-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\men-03.jpg",
+      "PackagePath": "staticwebassets\\images\\men-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\next.png",
+      "PackagePath": "staticwebassets\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\prev.png",
+      "PackagePath": "staticwebassets\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\products-page-heading.jpg",
+      "PackagePath": "staticwebassets\\images\\products-page-heading.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\quiz_home.png",
+      "PackagePath": "staticwebassets\\images\\quiz_home.png"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\service-01.jpg",
+      "PackagePath": "staticwebassets\\images\\service-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\service-02.jpg",
+      "PackagePath": "staticwebassets\\images\\service-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\service-03.jpg",
+      "PackagePath": "staticwebassets\\images\\service-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\single-product-01.jpg",
+      "PackagePath": "staticwebassets\\images\\single-product-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\single-product-02.jpg",
+      "PackagePath": "staticwebassets\\images\\single-product-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\team-member-01.jpg",
+      "PackagePath": "staticwebassets\\images\\team-member-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\team-member-02.jpg",
+      "PackagePath": "staticwebassets\\images\\team-member-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\team-member-03.jpg",
+      "PackagePath": "staticwebassets\\images\\team-member-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\theory_home.png",
+      "PackagePath": "staticwebassets\\images\\theory_home.png"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topic_1.png",
+      "PackagePath": "staticwebassets\\images\\topic_1.png"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topic_2.png",
+      "PackagePath": "staticwebassets\\images\\topic_2.png"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topic_3.png",
+      "PackagePath": "staticwebassets\\images\\topic_3.png"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topic_4.png",
+      "PackagePath": "staticwebassets\\images\\topic_4.png"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topic_5.png",
+      "PackagePath": "staticwebassets\\images\\topic_5.png"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topic_6.png",
+      "PackagePath": "staticwebassets\\images\\topic_6.png"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topic_7.png",
+      "PackagePath": "staticwebassets\\images\\topic_7.png"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topic_8.png",
+      "PackagePath": "staticwebassets\\images\\topic_8.png"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topic_9.png",
+      "PackagePath": "staticwebassets\\images\\topic_9.png"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic1\\topic1-images-0.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic1\\topic1-images-0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic1\\topic1-images-1.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic1\\topic1-images-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic1\\topic1-images-2.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic1\\topic1-images-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic1\\topic1-images-3.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic1\\topic1-images-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic1\\topic1-images-4.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic1\\topic1-images-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic1\\topic1-images-5.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic1\\topic1-images-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic1\\topic1-images-6.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic1\\topic1-images-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic2\\topic2-images-0.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic2\\topic2-images-0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic2\\topic2-images-1.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic2\\topic2-images-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic2\\topic2-images-2.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic2\\topic2-images-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic2\\topic2-images-3.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic2\\topic2-images-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic2\\topic2-images-4.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic2\\topic2-images-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic2\\topic2-images-5.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic2\\topic2-images-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic2\\topic2-images-6.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic2\\topic2-images-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic2\\topic2-images-7.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic2\\topic2-images-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-00.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-00.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-01.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-02.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-03.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-04.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-05.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-06.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-07.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-08.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-09.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-10.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-11.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-12.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-13.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-14.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-00.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-00.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-01.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-02.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-03.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-04.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-05.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-06.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-07.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-08.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-09.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-10.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-11.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-12.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-13.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-14.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-15.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-16.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-17.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-18.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-19.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-20.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-21.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-00.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-00.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-01.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-02.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-03.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-04.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-05.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-06.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-07.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-08.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-09.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-10.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-11.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-12.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-13.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-14.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-15.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-16.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-17.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-18.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-19.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-20.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-21.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-22.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-23.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-24.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-25.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-26.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-00.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-00.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-01.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-02.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-03.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-04.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-05.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-06.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-07.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-08.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-09.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-10.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-11.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-12.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-13.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-14.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-15.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-16.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-17.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-18.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-19.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-20.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-21.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-22.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-23.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-00.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-00.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-01.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-02.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-03.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-04.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-05.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-06.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-07.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-08.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-09.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-10.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-11.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-12.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-13.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-14.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-15.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-16.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-17.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-18.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-19.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-20.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-21.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-22.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-23.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-24.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-25.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-00.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic8\\topic8-images-00.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-01.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic8\\topic8-images-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-02.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic8\\topic8-images-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-03.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic8\\topic8-images-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-04.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic8\\topic8-images-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-05.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic8\\topic8-images-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-06.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic8\\topic8-images-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-07.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic8\\topic8-images-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-08.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic8\\topic8-images-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-10.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic8\\topic8-images-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-9.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic8\\topic8-images-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-00.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-00.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-01.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-02.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-03.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-04.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-05.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-06.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-07.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-08.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-09.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-10.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-11.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-12.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-13.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-14.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-15.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-16.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-17.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-18.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-19.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-20.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-21.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-22.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-23.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-24.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-25.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-26.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-27.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-28.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-28.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-29.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-29.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-30.jpg",
+      "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-30.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\white-logo.png",
+      "PackagePath": "staticwebassets\\images\\white-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\women-01.jpg",
+      "PackagePath": "staticwebassets\\images\\women-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\women-02.jpg",
+      "PackagePath": "staticwebassets\\images\\women-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\women-03.jpg",
+      "PackagePath": "staticwebassets\\images\\women-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\accordions.js",
+      "PackagePath": "staticwebassets\\js\\accordions.js"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\datepicker.js",
+      "PackagePath": "staticwebassets\\js\\datepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\imgfix.min.js",
+      "PackagePath": "staticwebassets\\js\\imgfix.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\isotope.js",
+      "PackagePath": "staticwebassets\\js\\isotope.js"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\jquery-2.1.0.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-2.1.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\js\\lightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\owl-carousel.js",
+      "PackagePath": "staticwebassets\\js\\owl-carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\pdf.mjs",
+      "PackagePath": "staticwebassets\\js\\pdf.mjs"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\pdf.mjs.map",
+      "PackagePath": "staticwebassets\\js\\pdf.mjs.map"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\pdf.sandbox.mjs",
+      "PackagePath": "staticwebassets\\js\\pdf.sandbox.mjs"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\pdf.sandbox.mjs.map",
+      "PackagePath": "staticwebassets\\js\\pdf.sandbox.mjs.map"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\pdf.worker.mjs",
+      "PackagePath": "staticwebassets\\js\\pdf.worker.mjs"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\pdf.worker.mjs.map",
+      "PackagePath": "staticwebassets\\js\\pdf.worker.mjs.map"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\popper.js",
+      "PackagePath": "staticwebassets\\js\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\quantity.js",
+      "PackagePath": "staticwebassets\\js\\quantity.js"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\scrollreveal.min.js",
+      "PackagePath": "staticwebassets\\js\\scrollreveal.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\slick.js",
+      "PackagePath": "staticwebassets\\js\\slick.js"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\js\\waypoints.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CSF_B.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CSF_B.props",
+      "PackagePath": "build\\CSF_B.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CSF_B.props",
+      "PackagePath": "buildMultiTargeting\\CSF_B.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CSF_B.props",
+      "PackagePath": "buildTransitive\\CSF_B.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

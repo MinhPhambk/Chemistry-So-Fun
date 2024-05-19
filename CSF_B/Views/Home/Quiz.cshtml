@@ -1,0 +1,212 @@
+﻿@using CSF_B.Models.BindingDTO
+
+@Model.ListQuiz QuizView
+
+<!-- ***** Preloader Start ***** -->
+<div id="preloader">
+    <div class="jumper">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!-- ***** Preloader End ***** -->
+<!-- ***** Header Area Start ***** -->
+<br />
+<br />
+<br />
+<br />
+<br />
+<header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        <img src="~/images/logo.png">
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                        <li class="scroll-to-section"><a href="@Url.Action("Index", "Home")">Trang chủ</a></li>
+                        <li><a href="@Url.Action("Lab", "Home")">Phòng thí nghiệm</a></li>
+                        <li><a href="@Url.Action("Theory", "Home")">Lý thuyết</a></li>
+                        <li><a href="@Url.Action("Quiz", "Home")" class="active" style="color: #fff !important;">Trắc nghiệm</a></li>
+                        <li><a href="@Url.Action("Video", "Home")">Bài giảng trực tuyến</a></li>
+                    </ul>
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- ***** Header Area End ***** -->
+
+<section class="section" id="quiz">
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-heading">
+                    <h2>Trắc nghiệm</h2>
+                    <span>Thử thách với những câu hỏi trắc nghiệm sau giờ học lý thuyết.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row blog">
+            <div class="col-lg-12">
+                <div id="topics1" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators" id="slides">
+                        <li data-target="#topics1" data-slide-to="0" class="active"></li>
+                        @for (int i = 1; i < Model.ListQuiz.Count / 3; i++)
+                        {
+                            <li data-target="#topics1" data-slide-to="@i"></li>
+                        }
+                    </ol>
+
+                    <div class="carousel-inner" id="alltopics1">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                @for (int i = 0; i < Math.Min(3, Model.ListQuiz.Count); i++)
+                                {
+                                    <div class="col-lg-4">
+                                        <div class="card" style="height:100%!important; border-width:7px !important; border-color:#38A735!important;">
+                                            <a href="@Url.Action("Quiz", "Home", new {id = (i+1)})">
+                                                <div class="card-body centered">
+                                                    <span>
+                                                        <h5 class="card-text" style="color: #1f4e79; font-weight: 700;">
+                                                            @Model.ListQuiz[i].Name
+                                                        </h5>
+                                                    </span>
+                                                </div>
+                                                <div class="card-body" style="padding-top:0px;">
+                                                    <span>
+                                                        <center>
+                                                            <h6 class="card-text" style="color: #1f4e79; font-weight: 700;">
+                                                                @Model.ListQuiz[i].Description1
+                                                            </h6>
+                                                        </center>
+                                                    </span>
+                                                </div>
+                                                <div class="card-body" style="padding-top:0px;">
+                                                    <span>
+                                                        @Html.Raw(@Model.ListQuiz[i].Description2)
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        @if (Model.ListQuiz.Count >= 3)
+                        {
+                            for (int i = 1; i < Model.ListQuiz.Count / 3; i++)
+                            {
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        @if (3 * i < Model.ListQuiz.Count)
+                                        {
+                                            <div class="col-lg-4">
+                                                <div class="card" style="height:100%!important; border-width:7px !important; border-color:#38A735!important;">
+                                                    <div class="card-body centered">
+                                                        <span>
+                                                            <h5 class="card-text" style="color: #1f4e79; font-weight: 700;">
+                                                                @Model.ListQuiz[3 * i].Name
+                                                            </h5>
+                                                        </span>
+                                                    </div>
+                                                    <div class="card-body" style="padding-top:0px;">
+                                                        <span>
+                                                            <center>
+                                                                <h6 class="card-text" style="color: #1f4e79; font-weight: 700;">
+                                                                    @Model.ListQuiz[3 * i].Description1
+                                                                </h6>
+                                                            </center>
+                                                        </span>
+                                                    </div>
+                                                    <div class="card-body" style="padding-top:0px;">
+                                                        <span>
+                                                            @Html.Raw(@Model.ListQuiz[3 * i].Description2)
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+                                        @if (3 * i + 1 < Model.ListQuiz.Count)
+                                        {
+                                            <div class="col-lg-4">
+                                                <div class="card" style="height:100%!important; border-width:7px !important; border-color:#38A735!important;">
+                                                    <a href="@Url.Action("Quiz", "Home", new {id = (3*i+1)})">
+                                                        <div class="card-body centered">
+                                                            <span>
+                                                                <h5 class="card-text" style="color: #1f4e79; font-weight: 700;">
+                                                                    @Model.ListQuiz[3 * i + 1].Name
+                                                                </h5>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card-body" style="padding-top:0px;">
+                                                            <span>
+                                                                <center>
+                                                                    <h6 class="card-text" style="color: #1f4e79; font-weight: 700;">
+                                                                        @Model.ListQuiz[3 * i + 1].Description1
+                                                                    </h6>
+                                                                </center>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card-body" style="padding-top:0px;">
+                                                            <span>
+                                                                @Html.Raw(@Model.ListQuiz[3 * i + 1].Description2)
+                                                            </span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        }
+                                        @if (3 * i + 2 < Model.ListQuiz.Count)
+                                        {
+                                            <div class="col-lg-4">
+                                                <div class="card" style="height:100%!important; border-width:7px !important; border-color:#38A735!important;">
+                                                    <a href="@Url.Action("Quiz", "Home", new {id = (3*i+2)})">
+                                                        <div class="card-body centered">
+                                                            <span>
+                                                                <h5 class="card-text" style="color: #1f4e79; font-weight: 700;">
+                                                                    @Model.ListQuiz[3 * i + 2].Name
+                                                                </h5>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card-body" style="padding-top:0px;">
+                                                            <span>
+                                                                <center>
+                                                                    <h6 class="card-text" style="color: #1f4e79; font-weight: 700;">
+                                                                        @Model.ListQuiz[3 * i + 2].Description1
+                                                                    </h6>
+                                                                </center>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card-body" style="padding-top:0px;">
+                                                            <span>
+                                                                @Html.Raw(@Model.ListQuiz[3 * i + 2].Description2)
+                                                            </span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
