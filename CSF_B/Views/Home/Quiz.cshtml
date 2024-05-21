@@ -1,6 +1,81 @@
-﻿@using CSF_B.Models.BindingDTO
+﻿@using System;
+@using System.Collections.Generic;
+@using System.Linq;
+@using CSF_B.Models.BL.QuizDetailBL
+@using CSF_B.Models.BindingDTO
 
 @Model.ListQuiz QuizView
+
+<style>
+    #p {
+        text-align: justify;
+    }
+
+    .radio-group label {
+        margin-bottom: 5px;
+    }
+
+    .radio-btn {
+        height: 35px !important;
+        width: 35px !important;
+        vertical-align: middle;
+    }
+
+    [type="radio"]:checked,
+    [type="radio"]:not(:checked) {
+        position: absolute;
+        left: -9999px;
+    }
+
+        [type="radio"]:checked + label,
+        [type="radio"]:not(:checked) + label {
+            position: relative;
+            padding-left: 28px;
+            cursor: pointer;
+            line-height: 20px;
+            display: inline-block;
+            color: #666;
+        }
+
+            [type="radio"]:checked + label:before,
+            [type="radio"]:not(:checked) + label:before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 18px;
+                height: 18px;
+                border: 3px solid #38a735;
+                border-radius: 100%;
+                background: 3px solid #fff;
+            }
+
+            [type="radio"]:checked + label:after,
+            [type="radio"]:not(:checked) + label:after {
+                content: '';
+                width: 12px;
+                height: 12px;
+                background: #38a735;
+                position: absolute;
+                top: 3px;
+                left: 3px;
+                border-radius: 100%;
+                -webkit-transition: all 0.2s ease;
+                transition: all 0.2s ease;
+            }
+
+            [type="radio"]:not(:checked) + label:after {
+                opacity: 0;
+                -webkit-transform: scale(0);
+                transform: scale(0);
+            }
+
+            [type="radio"]:checked + label:after {
+                opacity: 1;
+                -webkit-transform: scale(1);
+                transform: scale(1.6);
+            }
+</style>
 
 <!-- ***** Preloader Start ***** -->
 <div id="preloader">
@@ -33,7 +108,7 @@
                         <li><a href="@Url.Action("Lab", "Home")">Phòng thí nghiệm</a></li>
                         <li><a href="@Url.Action("Theory", "Home")">Lý thuyết</a></li>
                         <li><a href="@Url.Action("Quiz", "Home")" class="active" style="color: #fff !important;">Trắc nghiệm</a></li>
-                        <li><a href="@Url.Action("Video", "Home")">Bài giảng trực tuyến</a></li>
+                        <li><a href="@Url.Action("Video", "Home")">Hoá học kỳ diệu</a></li>
                     </ul>
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -78,7 +153,7 @@
                                 {
                                     <div class="col-lg-4">
                                         <div class="card" style="height:100%!important; border-width:7px !important; border-color:#38A735!important;">
-                                            <a href="@Url.Action("Quiz", "Home", new {id = (i+1)})">
+                                            <a href="@Url.Action("Quiz", "Home", new {id = Model.ListQuiz[i].Id})">
                                                 <div class="card-body centered">
                                                     <span>
                                                         <h5 class="card-text" style="color: #1f4e79; font-weight: 700;">
@@ -116,27 +191,29 @@
                                         {
                                             <div class="col-lg-4">
                                                 <div class="card" style="height:100%!important; border-width:7px !important; border-color:#38A735!important;">
-                                                    <div class="card-body centered">
-                                                        <span>
-                                                            <h5 class="card-text" style="color: #1f4e79; font-weight: 700;">
-                                                                @Model.ListQuiz[3 * i].Name
-                                                            </h5>
-                                                        </span>
-                                                    </div>
-                                                    <div class="card-body" style="padding-top:0px;">
-                                                        <span>
-                                                            <center>
-                                                                <h6 class="card-text" style="color: #1f4e79; font-weight: 700;">
-                                                                    @Model.ListQuiz[3 * i].Description1
-                                                                </h6>
-                                                            </center>
-                                                        </span>
-                                                    </div>
-                                                    <div class="card-body" style="padding-top:0px;">
-                                                        <span>
-                                                            @Html.Raw(@Model.ListQuiz[3 * i].Description2)
-                                                        </span>
-                                                    </div>
+                                                    <a href="@Url.Action("Quiz", "Home", new {id = Model.ListQuiz[3 * i].Id})">
+                                                        <div class="card-body centered">
+                                                            <span>
+                                                                <h5 class="card-text" style="color: #1f4e79; font-weight: 700;">
+                                                                    @Model.ListQuiz[3 * i].Name
+                                                                </h5>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card-body" style="padding-top:0px;">
+                                                            <span>
+                                                                <center>
+                                                                    <h6 class="card-text" style="color: #1f4e79; font-weight: 700;">
+                                                                        @Model.ListQuiz[3 * i].Description1
+                                                                    </h6>
+                                                                </center>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card-body" style="padding-top:0px;">
+                                                            <span>
+                                                                @Html.Raw(@Model.ListQuiz[3 * i].Description2)
+                                                            </span>
+                                                        </div>
+                                                    </a>
                                                 </div>
                                             </div>
                                         }
@@ -144,7 +221,7 @@
                                         {
                                             <div class="col-lg-4">
                                                 <div class="card" style="height:100%!important; border-width:7px !important; border-color:#38A735!important;">
-                                                    <a href="@Url.Action("Quiz", "Home", new {id = (3*i+1)})">
+                                                    <a href="@Url.Action("Quiz", "Home", new {id = Model.ListQuiz[3 * i + 1].Id})">
                                                         <div class="card-body centered">
                                                             <span>
                                                                 <h5 class="card-text" style="color: #1f4e79; font-weight: 700;">
@@ -174,7 +251,7 @@
                                         {
                                             <div class="col-lg-4">
                                                 <div class="card" style="height:100%!important; border-width:7px !important; border-color:#38A735!important;">
-                                                    <a href="@Url.Action("Quiz", "Home", new {id = (3*i+2)})">
+                                                    <a href="@Url.Action("Quiz", "Home", new {id = Model.ListQuiz[3 * i + 2].Id})">
                                                         <div class="card-body centered">
                                                             <span>
                                                                 <h5 class="card-text" style="color: #1f4e79; font-weight: 700;">
@@ -210,3 +287,281 @@
         </div>
     </div>
 </section>
+
+@if (Model.ListDetail.Count == 0)
+{
+    <br />
+    <br />
+    <br />
+}
+else
+{
+    <section class="section" id="quizPos" style="margin-right:16px; margin-left:16px;">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="container" style="background-color: #fff; border-radius: 20px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.5), -5px -5px 10px rgba(0, 0, 0, 0.5);">
+            <div class="row">
+                <h3 class="card-text" style="color: #1f4e79; font-weight: 700; text-align:center; width:100%; margin-top:20px; margin-bottom:25px; border-radius: 20px;">@Model.TopicName</h3>
+            </div>
+            <div class="row" id="resPos"></div>
+            <div class="row">
+                <div id="10ques" style="margin-right: 25px; margin-left: 25px;padding-bottom:30px">
+                    
+                </div>
+            </div>
+            <div class="row" style="padding-bottom:40px;">
+                <div class="col centered" style="display: none;" id="nextquiz">
+                    <div class="main-border-button" style="background-color: #1f4e79 !important; width: fit-content !important; border-radius:30px">
+                        <a href="#" style="font-weight: 700; font-size: medium;" data-toggle="modal" data-target="#exampleModal1">
+                            <svg style="margin-right:8px" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-clockwise" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2z"></path>
+                                <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466"></path>
+                            </svg>
+                            Câu hỏi khác
+                        </a>
+                    </div>
+                </div>
+                <div class="col centered" id="checkquiz">
+                    <div class="main-border-button" style="background-color: #a0c49c !important; width: fit-content !important; border-radius:30px">
+                        <a href="#" style="font-weight: 700; font-size: medium;" data-toggle="modal" data-target="#exampleModal2">
+                            <svg style="margin-right:8px" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z" />
+                            </svg>
+                            Kiểm tra đáp án
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+}
+
+<!-- Modal 1 -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel1">Làm bộ câu hỏi khác</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Xác nhận làm câu hỏi khác và không lưu lại câu trả lời hiện tại?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Huỷ</button>
+        <button type="button" class="btn btn-primary" style="background-color:#1f4e79 !important" onclick="confirmFunc(1)">Xác nhận</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel2">Nộp bài</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Xác nhận lưu câu trả lời hiện tại và chấm điểm?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Huỷ</button>
+        <button type="button" class="btn btn-primary" style="background-color:#1f4e79 !important" onclick="confirmFunc(2)">Xác nhận</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+    window.addEventListener('load', () => {
+        const topicElement = document.getElementById('quizPos');
+        if (topicElement) {
+            topicElement.scrollIntoView({ behavior: 'smooth' });
+        }
+    });
+
+    var quizPos = document.getElementById("10ques");
+
+    function loadQuiz()
+    {
+        var answer = [];
+        if (quizPos) { 
+            @if (Model.ListDetail.Count != 0)
+                {
+                int idx = 0;
+                foreach (QuizDetailDTO quiz in Model.ListDetail)
+                {
+                idx += 1;
+                <text>
+                        answer.push(@quiz.Answer);
+                        quizPos.insertAdjacentHTML('beforeend', 
+                            `
+                            <p style="font-size: 20px; margin-top: 10px">
+                                Câu @(idx.ToString() + ". ") @Html.Raw(quiz.Question)
+                            </p>
+                            <div class="radio-group">
+                                    <p style="margin-top:10px; font-size: 18px;">
+                                    <input type="radio" name="@quiz.Id" class="radio-btn" id="@(quiz.Id + "_1")">
+                                    <label id="@(quiz.Id + "__1")" for="@(quiz.Id + "_1")">@Html.Raw(quiz.Answer1)</label>
+                                </p>
+                                <p style="margin-top:10px; font-size: 18px;">
+                                    <input type="radio" name="@quiz.Id" class="radio-btn" id="@(quiz.Id + "_2")">
+                                    <label id="@(quiz.Id + "__2")" for="@(quiz.Id + "_2")">@Html.Raw(quiz.Answer2)</label>
+                                </p>
+                                <p style="margin-top:10px; font-size: 18px;">
+                                    <input type="radio" name="@quiz.Id" class="radio-btn" id="@(quiz.Id + "_3")">
+                                    <label id="@(quiz.Id + "__3")" for="@(quiz.Id + "_3")">@Html.Raw(quiz.Answer3)</label>
+                                </p>
+                                <p style="margin-top:10px; font-size: 18px;">
+                                    <input type="radio" name="@quiz.Id" class="radio-btn" id="@(quiz.Id + "_4")">
+                                    <label id="@(quiz.Id + "__4")" for="@(quiz.Id + "_4")">@Html.Raw(quiz.Answer4)</label>
+                                </p>
+                            </div>
+                            `);
+                    </text>
+                }        
+            }
+        }
+        return answer;
+    }
+
+    var ansQuiz = loadQuiz();
+
+    document.addEventListener("DOMContentLoaded", function () {
+        var paragraphs = document.querySelectorAll("p");
+
+        paragraphs.forEach(function (paragraph) {
+            paragraph.style.textAlign = "justify"; 
+            paragraph.style.lineHeight = "1.5";
+        });
+    });
+
+    function getCheckedValue(groupName) {
+        const radios = document.querySelectorAll(`input[name="${groupName}"]`);
+        for (const radio of radios) {
+            if (radio.checked) {
+                return radio.id;
+            }
+        }
+        return "";
+    }
+
+    function confirmFunc(id) {
+        if (id == 1) {
+            $('#exampleModal1').modal('hide');
+            location.reload();
+        }
+        else if (id == 2)
+        {
+            const radioButtons = document.querySelectorAll('input[type="radio"]');
+            radioButtons.forEach(radio => {
+                radio.disabled = true;
+            });
+
+            var c_ = 0, right_ans = 0;
+            @foreach (QuizDetailDTO quiz in Model.ListDetail)
+            {
+                <text>
+                var str = getCheckedValue(@quiz.Id);
+                if (str != "") 
+                {
+                    var lastUnderscoreIndex = str.lastIndexOf('_');
+                    var lastPart = str.substring(lastUnderscoreIndex + 1);
+                    var ans = parseInt(lastPart);
+                    if (ans == ansQuiz[c_]) 
+                    {
+                        right_ans = right_ans + 1;
+                        var p_ans = document.getElementById(@quiz.Id + "__" + lastPart);
+                        p_ans.style.color = 'green';
+                        p_ans.style.fontWeight = '600';
+
+                        p_ans.insertAdjacentHTML('beforeend',
+                            `
+                                <svg style="margin-right:8px" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z" />
+                                </svg>
+                            `);
+                    }
+                    else 
+                    {
+                        var p_ans = document.getElementById(@quiz.Id + "__" + lastPart);
+                        p_ans.style.color = 'red';
+                        p_ans.style.fontWeight = '600';
+
+                        p_ans.insertAdjacentHTML('beforeend',
+                            `
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                                </svg>
+                            `);
+
+                        var p_true = document.getElementById(@quiz.Id + "__" + ansQuiz[c_].toString());
+                        p_true.style.color = 'green';
+                        p_true.style.fontWeight = '600';
+
+                        p_true.insertAdjacentHTML('beforeend',
+                            `
+                                <svg style="margin-right:8px" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z" />
+                                </svg>
+                            `);
+                    }
+                }
+                else 
+                {
+                    var p_ans = document.getElementById(@quiz.Id + "__" + ansQuiz[c_].toString());
+                    p_ans.style.color = 'green';
+                    p_ans.style.fontWeight = '600';
+
+                    p_ans.insertAdjacentHTML('beforeend',
+                        `
+                            <svg style="margin-right:8px" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z" />
+                            </svg>
+                        `);
+                }
+            
+                c_ = c_ + 1;
+                </text>
+            }
+
+                document.getElementById('resPos').insertAdjacentHTML('beforeend',
+                `
+                    <h4 style=" margin-right: 25px; 
+                                margin-left: 25px;
+                                padding-bottom:20px;
+                                padding-top:20px;
+                                padding-left:10px;
+                                padding-right:10px;
+                                border-width: 4px;
+                                border-style: solid; 
+                                border-radius: 20px;
+                                border-color: green;">
+                                Số câu đúng: 
+                                    <span style="color:green; 
+                                                font-weight:600">
+                                                ` + right_ans.toString() + `/10
+                                    </span>
+                    </h4>
+                `);
+
+            $('#exampleModal2').modal('hide');
+            document.getElementById('nextquiz').style.display = 'flex';
+            document.getElementById('checkquiz').style.display = 'none';
+            var topicElement = document.getElementById('quizPos');
+            if (topicElement) {
+                topicElement.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    }
+
+</script>

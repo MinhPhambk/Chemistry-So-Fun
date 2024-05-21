@@ -15,5 +15,6 @@ namespace CSF_B.Models.BindingDTO
 
         public List<QuizDTO> ListQuiz { get; set; } = new List<QuizDTO>();
         public List<QuizDetailDTO> ListDetail { get; set; } = new List<QuizDetailDTO>();
+        public string TopicName { get; set; }
     }
 }

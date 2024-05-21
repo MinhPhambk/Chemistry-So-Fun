@@ -1,0 +1,448 @@
+﻿@using CSF_B.Models.BL.QuizBL
+@using CSF_B.Models.BL.QuizDetailBL
+@using CSF_B.Models.BindingDTO
+
+@model QuizView
+
+<style>
+    #p {
+        text-align: justify;
+    }
+
+    .search-bar {
+        border-radius: 10px;
+        background-color: #9bc69d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .search-input {
+        width: 100%;
+        padding: 8px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+    }
+
+    .search-btn {
+        margin-left: 10px;
+        padding: 8px 15px;
+        border-radius: 5px;
+        border: none;
+        background-color: #ffffff;
+        color: #000000;
+        cursor: pointer;
+    }
+</style>
+
+<!-- ***** Preloader Start ***** -->
+<div id="preloader">
+    <div class="jumper">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!-- ***** Preloader End ***** -->
+<!-- ***** Header Area Start ***** -->
+<br />
+<br />
+<br />
+<br />
+<br />
+<header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        <img src="~/images/logo.png">
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                        <li>
+                            <a href"#" asp-controller="Home" asp-action="Logout">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0z" />
+                                    <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z" />
+                                </svg>
+                                Đăng xuất
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-lg-10">
+                <div class="container">
+                    <div class="search-bar">
+                        <input id="strInput" type="text" class="form-control search-input" placeholder="Tìm kiếm...">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2" style="margin-top:4px">
+                <div class="main-border-button" style="background-color: #a0c49c !important; width: fit-content !important;">
+                    <a style="font-weight: 700; font-size: medium;" data-toggle="modal" data-target="#exampleModal1">Tạo câu hỏi</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- ***** Header Area End ***** -->
+
+<section class="section" id="products">
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="container">
+        <div class="row">
+            <div class="mt-2 mb-3">
+                <p>
+                    <i>*Click vào từng câu hỏi để chỉnh sửa!</i>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" style="min-height:80vh;" id="showquiz">
+        </div>
+    </div>
+</section>
+
+<!-- Modal 1 -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabe1" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel1">Thêm câu hỏi</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <p class="d-flex align-items-center justify-content-center" style="height:100%">Mã số chủ đề</p>
+                    </div>
+                    <div class="col-lg-9">
+                        <input id="TopicId" type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-lg-3">
+                        <p class="d-flex align-items-center justify-content-center" style="height:100%">Câu hỏi</p>
+                    </div>
+                    <div class="col-lg-9">
+                        <textarea id="Question" type="text" class="form-control"></textarea>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-lg-3">
+                        <p class="d-flex align-items-center justify-content-center" style="height:100%">Đáp án 1</p>
+                    </div>
+                    <div class="col-lg-9">
+                        <textarea id="Answer1" type="text" class="form-control"></textarea>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-lg-3">
+                        <p class="d-flex align-items-center justify-content-center" style="height:100%">Đáp án 2</p>
+                    </div>
+                    <div class="col-lg-9">
+                        <textarea id="Answer2" type="text" class="form-control"></textarea>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-lg-3">
+                        <p class="d-flex align-items-center justify-content-center" style="height:100%">Đáp án 3</p>
+                    </div>
+                    <div class="col-lg-9">
+                        <textarea id="Answer3" type="text" class="form-control"></textarea>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-lg-3">
+                        <p class="d-flex align-items-center justify-content-center" style="height:100%">Đáp án 4</p>
+                    </div>
+                    <div class="col-lg-9">
+                        <textarea id="Answer4" type="text" class="form-control"></textarea>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-lg-3">
+                        <p class="d-flex align-items-center justify-content-center" style="height:100%">Đáp án đúng</p>
+                    </div>
+                    <div class="col-lg-9">
+                        <input id="Answer" type="text" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Huỷ</button>
+                <button type="button" class="btn btn-primary" style="background-color:#1f4e79 !important" onclick="addQuiz()">Thêm mới</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel2">Cập nhật</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <p class="d-flex align-items-center justify-content-center" style="height:100%">Mã số câu</p>
+                    </div>
+                    <div class="col-lg-9">
+                        <input id="2Id" type="text" class="form-control" readonly>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-lg-3">
+                        <p class="d-flex align-items-center justify-content-center" style="height:100%">Mã số chủ đề</p>
+                    </div>
+                    <div class="col-lg-9">
+                        <input id="2TopicId" type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-lg-3">
+                        <p class="d-flex align-items-center justify-content-center" style="height:100%">Câu hỏi</p>
+                    </div>
+                    <div class="col-lg-9">
+                        <textarea id="2Question" type="text" class="form-control"></textarea>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-lg-3">
+                        <p class="d-flex align-items-center justify-content-center" style="height:100%">Đáp án 1</p>
+                    </div>
+                    <div class="col-lg-9">
+                        <textarea id="2Answer1" type="text" class="form-control"></textarea>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-lg-3">
+                        <p class="d-flex align-items-center justify-content-center" style="height:100%">Đáp án 2</p>
+                    </div>
+                    <div class="col-lg-9">
+                        <textarea id="2Answer2" type="text" class="form-control"></textarea>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-lg-3">
+                        <p class="d-flex align-items-center justify-content-center" style="height:100%">Đáp án 3</p>
+                    </div>
+                    <div class="col-lg-9">
+                        <textarea id="2Answer3" type="text" class="form-control"></textarea>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-lg-3">
+                        <p class="d-flex align-items-center justify-content-center" style="height:100%">Đáp án 4</p>
+                    </div>
+                    <div class="col-lg-9">
+                        <textarea id="2Answer4" type="text" class="form-control"></textarea>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-lg-3">
+                        <p class="d-flex align-items-center justify-content-center" style="height:100%">Đáp án đúng</p>
+                    </div>
+                    <div class="col-lg-9">
+                        <input id="2Answer" type="text" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" onclick="deleteQuiz()" data-dismiss="modal">Xoá</button>
+                <button type="button" class="btn btn-primary" onclick="updateQuiz()">Cập nhật</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    $('#exampleModal2').on('show.bs.modal', function (e) {
+        var id = $(e.relatedTarget).data('id');
+        var topicid = $(e.relatedTarget).data('topicid');
+        var ques = $(e.relatedTarget).data('ques');
+        var an1 = $(e.relatedTarget).data('an1');
+        var an2 = $(e.relatedTarget).data('an2');
+        var an3 = $(e.relatedTarget).data('an3');
+        var an4 = $(e.relatedTarget).data('an4');
+        var ans = $(e.relatedTarget).data('ans');
+
+        document.getElementById('2Id').value = id;
+        document.getElementById('2TopicId').value = topicid;
+        document.getElementById('2Question').value = ques;
+        document.getElementById('2Answer1').value = an1;
+        document.getElementById('2Answer2').value = an2;
+        document.getElementById('2Answer3').value = an3;
+        document.getElementById('2Answer4').value = an4;
+        document.getElementById('2Answer').value = ans;
+    });
+
+    function addQuiz() {
+        var topicid = document.getElementById('TopicId').value;
+        var ques = document.getElementById('Question').value;
+        var an1 = document.getElementById('Answer1').value;
+        var an2 = document.getElementById('Answer2').value;
+        var an3 = document.getElementById('Answer3').value;
+        var an4 = document.getElementById('Answer4').value;
+        var ans = document.getElementById('Answer').value;
+
+        $.ajax({
+            url: '/Home/AddQuiz',
+            dataType: "json",
+            type: "POST",
+            contentType: 'application/json; charset=utf-8',
+            data: JSON.stringify({ Id: 0, TopicId: topicid, Question: ques, Answer1: an1, Answer2: an2, Answer3: an3, Answer4: an4, Answer: ans }),
+            async: true,
+            success: function (data) {
+                if (data == "done") {
+                    location.reload();
+                    alert('Thêm mới thành công!');
+                }
+                else {
+                    alert('Thêm mới không thành công!');
+                }
+            },
+            error: function (xhr) {
+                alert('Thêm mới không thành công!');
+            }
+        });
+    }
+
+    function updateQuiz() {
+        var id = document.getElementById('2Id').value;
+        var topicid = document.getElementById('2TopicId').value;
+        var ques = document.getElementById('2Question').value;
+        var an1 = document.getElementById('2Answer1').value;
+        var an2 = document.getElementById('2Answer2').value;
+        var an3 = document.getElementById('2Answer3').value;
+        var an4 = document.getElementById('2Answer4').value;
+        var ans = document.getElementById('2Answer').value;
+
+        $.ajax({
+            url: '/Home/UpdateQuiz',
+            dataType: "json",
+            type: "POST",
+            contentType: 'application/json; charset=utf-8',
+            data: JSON.stringify({ Id: id, TopicId: topicid, Question: ques, Answer1: an1, Answer2: an2, Answer3: an3, Answer4: an4, Answer: ans }),
+            async: true,
+            success: function (data) {
+                if (data == "done") {
+                    location.reload();
+                    alert('Cập nhật thành công!');
+                }
+                else {
+                    alert('Cập nhật không thành công!');
+                }
+            },
+            error: function (xhr) {
+                alert('Cập nhật không thành công!');
+            }
+        });
+    }
+
+    function deleteQuiz() {
+        var id = document.getElementById('2Id').value;
+
+        $.ajax({
+            url: '/Home/DeleteQuiz',
+            dataType: "json",
+            type: "POST",
+            contentType: 'application/json; charset=utf-8',
+            data: JSON.stringify(id),
+            async: true,
+            success: function (data) {
+                if (data == "done") {
+                    $('#exampleModal2').modal('hide');
+                    document.getElementById(id).parentNode.removeChild(document.getElementById(id));
+                    alert('Xoá thành công!');
+                }
+                else {
+                    alert('Xoá không thành công!');
+                }
+            },
+            error: function (xhr) {
+                alert('Xoá không thành công!');
+            }
+        });
+    }
+
+    document.getElementById('strInput').addEventListener('input', function (event) {
+        var strSearch = event.target.value.toLowerCase();
+        var items = document.getElementsByClassName('col-lg-12');
+        for (var i = 0; i < items.length; i++) {
+            var item = items[i];
+            var itemNameP = item.querySelector('p').textContent.toLowerCase();
+            var itemNameLabel = item.querySelector('label').textContent.toLowerCase();
+            if (itemNameP.includes(strSearch) || itemNameLabel.includes(strSearch)) {
+                item.style.display = 'flex';
+            } else {
+                item.style.display = 'none';
+            }
+        } 
+        var topicElement = document.getElementById('strInput');
+        if (topicElement) {
+            topicElement.scrollIntoView({ behavior: 'smooth' });
+        }
+    });
+
+    @foreach (QuizDetailDTO quiz in Model.ListDetail)
+    {
+        <text>
+            document.getElementById("showquiz").insertAdjacentHTML('beforeend',
+                `
+                    <div class="col-lg-12" id="@quiz.Id">
+                            <a href="#" class="item" style="height:100%!important"
+                                data-id="@quiz.Id"
+                                data-topicid="@quiz.TopicId"
+                                data-ques="@quiz.Question"
+                                data-an1="@quiz.Answer1"
+                                data-an2="@quiz.Answer2"
+                                data-an3="@quiz.Answer2"
+                                data-an4="@quiz.Answer4"
+                                data-ans="@quiz.Answer"
+                                data-toggle="modal" data-target="#exampleModal2">
+                            <p style="font-size: 20px; margin-top: 10px" id="@(quiz.Id + "__")">
+                                @(quiz.TopicId + "." + quiz.Id + ". ") @Html.Raw(quiz.Question)
+                            </p>
+                            <div class="radio-group">
+                                    <p style="margin-top:10px; font-size: 18px;">
+                                    <label id="@(quiz.Id + "_1")">A. @Html.Raw(quiz.Answer1)</label>
+                                </p>
+                                <p style="margin-top:10px; font-size: 18px;">
+                                    <label id="@(quiz.Id + "_2")">B. @Html.Raw(quiz.Answer2)</label>
+                                </p>
+                                <p style="margin-top:10px; font-size: 18px;">
+                                    <label id="@(quiz.Id + "_3")">C. @Html.Raw(quiz.Answer3)</label>
+                                </p>
+                                <p style="margin-top:10px; font-size: 18px;">
+                                    <label id="@(quiz.Id + "_4")">D. @Html.Raw(quiz.Answer4)</label>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                `);
+        </text>
+    }
+
+</script>

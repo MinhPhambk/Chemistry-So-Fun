@@ -2014,11 +2014,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\CSF_B.csproj",
+      "projectUniqueName": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\CSF_B.csproj",
       "projectName": "CSF_B",
-      "projectPath": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\CSF_B.csproj",
+      "projectPath": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\CSF_B.csproj",
       "packagesPath": "C:\\Users\\phamn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\obj\\",
+      "outputPath": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

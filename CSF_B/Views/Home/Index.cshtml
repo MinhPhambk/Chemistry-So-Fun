@@ -21,7 +21,7 @@
             <div class="col-12">
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
-                    <a href="index.html" class="logo">
+                    <a @Url.Action("", "Home") class="logo">
                         <img src="~/images/logo.png">
                     </a>
                     <!-- ***** Logo End ***** -->
@@ -34,7 +34,7 @@
                         <li><a href="@Url.Action("Lab", "Home")">Phòng thí nghiệm</a></li>
                         <li><a href="@Url.Action("Theory", "Home")">Lý thuyết</a></li>
                         <li><a href="@Url.Action("Quiz", "Home")">Trắc nghiệm</a></li>
-                        <li><a href="@Url.Action("Video", "Home")">Bài giảng trực tuyến</a></li>
+                        <li><a href="@Url.Action("Video", "Home")">Hoá học kỳ diệu</a></li>
                     </ul>
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -313,7 +313,7 @@
                                 {
                                     <div class="col-lg-4">
                                         <div class="card" style="height:100%!important; border-width:7px !important; border-color:#38A735!important;">
-                                            <a href="@Url.Action("Quiz", "Home", new {id = (i+1)})">
+                                            <a href="@Url.Action("Quiz", "Home", new {id = Model[i].Id})">
                                                 <div class="card-body centered">
                                                     <span>
                                                         <h5 class="card-text" style="color: #1f4e79; font-weight: 700;">
@@ -351,27 +351,29 @@
                                         {
                                             <div class="col-lg-4">
                                                 <div class="card" style="height:100%!important; border-width:7px !important; border-color:#38A735!important;">
-                                                    <div class="card-body centered">
-                                                        <span>
-                                                            <h5 class="card-text" style="color: #1f4e79; font-weight: 700;">
-                                                                @Model[3 * i].Name
-                                                            </h5>
-                                                        </span>
-                                                    </div>
-                                                    <div class="card-body" style="padding-top:0px;">
-                                                        <span>
-                                                            <center>
-                                                                <h6 class="card-text" style="color: #1f4e79; font-weight: 700;">
-                                                                    @Model[3 * i].Description1
-                                                                </h6>
-                                                            </center>
-                                                        </span>
-                                                    </div>
-                                                    <div class="card-body" style="padding-top:0px;">
-                                                        <span>
-                                                            @Html.Raw(@Model[3 * i].Description2)
-                                                        </span>
-                                                    </div>
+                                                    <a href="@Url.Action("Quiz", "Home", new {id = Model[3 * i].Id})">
+                                                        <div class="card-body centered">
+                                                            <span>
+                                                                <h5 class="card-text" style="color: #1f4e79; font-weight: 700;">
+                                                                    @Model[3 * i].Name
+                                                                </h5>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card-body" style="padding-top:0px;">
+                                                            <span>
+                                                                <center>
+                                                                    <h6 class="card-text" style="color: #1f4e79; font-weight: 700;">
+                                                                        @Model[3 * i].Description1
+                                                                    </h6>
+                                                                </center>
+                                                            </span>
+                                                        </div>
+                                                        <div class="card-body" style="padding-top:0px;">
+                                                            <span>
+                                                                @Html.Raw(@Model[3 * i].Description2)
+                                                            </span>
+                                                        </div>
+                                                    </a>
                                                 </div>
                                             </div>                                            
                                         }
@@ -379,7 +381,7 @@
                                         {
                                             <div class="col-lg-4">
                                                 <div class="card" style="height:100%!important; border-width:7px !important; border-color:#38A735!important;">
-                                                    <a href="@Url.Action("Quiz", "Home", new {id = (3*i+1)})">
+                                                    <a href="@Url.Action("Quiz", "Home", new {id = Model[3 * i + 1].Id})">
                                                         <div class="card-body centered">
                                                             <span>
                                                                 <h5 class="card-text" style="color: #1f4e79; font-weight: 700;">
@@ -409,7 +411,7 @@
                                         {
                                             <div class="col-lg-4">
                                                 <div class="card" style="height:100%!important; border-width:7px !important; border-color:#38A735!important;">
-                                                    <a href="@Url.Action("Quiz", "Home", new {id = (3*i+2)})">
+                                                    <a href="@Url.Action("Quiz", "Home", new {id = Model[3 * i + 2].Id})">
                                                         <div class="card-body centered">
                                                             <span>
                                                                 <h5 class="card-text" style="color: #1f4e79; font-weight: 700;">
@@ -447,18 +449,27 @@
 </section>
 <!-- ***** Quiz Area Ends ***** -->
 <!-- ***** Video Area Starts ***** -->
-<br />
-<br />
-<br />
-<br />
-<br />
-<section class="section" id="video">
-    <div class="container">
+<section class="section" id="video" >
+    <div class="main-banner" style="margin-top:-30px;">
+        <div class="container-fluid">
         <div class="row">
             <div class="col">
-
+                <div class="left-content">
+                    <div class="thumb">
+                        <div class="image-container">
+                            <img src="~/images/video_home.png">
+                        </div>
+                        <div class="inner-content">
+                            <h4>Các video hay về hoá học</h4>
+                            <div class="main-border-button">
+                                <a href="@Url.Action("Video", "Home")">Xem ngay!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
     </div>
 </section>
 <!-- ***** Video Area Ends ***** -->

@@ -1,4 +1,37 @@
-﻿<!-- ***** Preloader Start ***** -->
+﻿@using CSF_B.Models.BL.VideoBL
+
+@model List<VideoDTO>
+
+<style>
+    .search-bar {
+        border-radius: 10px;
+        background-color: #9bc69d; /* Màu nền xanh lá cây nhạt */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .search-input {
+        width: 100%;
+        padding: 8px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+    }
+
+    .search-btn {
+        margin-left: 10px;
+        padding: 8px 15px;
+        border-radius: 5px;
+        border: none;
+        background-color: #ffffff;
+        color: #000000;
+        cursor: pointer;
+    }
+</style>
+
+<!-- ***** Preloader Start ***** -->
 <div id="preloader">
     <div class="jumper">
         <div></div>
@@ -29,7 +62,7 @@
                         <li><a href="@Url.Action("Lab", "Home")">Phòng thí nghiệm</a></li>
                         <li><a href="@Url.Action("Theory", "Home")">Lý thuyết</a></li>
                         <li><a href="@Url.Action("Quiz", "Home")">Trắc nghiệm</a></li>
-                        <li><a href="@Url.Action("Video", "Home")" class="active" style="color: #fff !important;">Bài giảng trực tuyến</a></li>
+                        <li><a href="@Url.Action("Video", "Home")" class="active" style="color: #fff !important;">Hoá học kỳ diệu</a></li>
                     </ul>
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -41,4 +74,61 @@
     </div>
 </header>
 <!-- ***** Header Area End ***** -->
-<!-- ***** Theory Area Starts ***** -->
+
+<section class="section" id="products">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="container mb-5">
+                    <div class="search-bar">
+                        <input id="strInput" type="text" class="form-control search-input" placeholder="Tìm kiếm...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" style="min-height:80vh;" id="showvideo">
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript">
+
+    document.getElementById('strInput').addEventListener('input', function (event) {
+        var strSearch = event.target.value.toLowerCase();
+        var items = document.getElementsByClassName('col-lg-4');
+        for (var i = 0; i < items.length; i++) {
+            var item = items[i];
+            var itemNameH5 = item.querySelector('h5').textContent.toLowerCase();
+            var itemNameSpan = item.querySelector('span').textContent.toLowerCase();
+            if (itemNameH5.includes(strSearch) || itemNameSpan.includes(strSearch)) {
+                item.style.display = 'flex';
+            } else {
+                item.style.display = 'none';
+            }
+        }
+    });
+
+    @foreach(VideoDTO vid in Model) {
+        <text>
+        document.getElementById("showvideo").insertAdjacentHTML('beforeend',
+        `
+            <div class="col-lg-4">
+                <a href="@vid.Link">
+                    <div class="item" style="height:100%!important">
+                        <div class="thumb">
+                            <img src="@vid.LinkImg" alt="">
+                        </div>
+                        <div class="down-content">
+                            <h5>@vid.Name</h5>
+                            <span>@vid.Description</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        `);
+        </text>
+    }
+
+</script>

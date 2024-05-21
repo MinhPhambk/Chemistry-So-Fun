@@ -1,1083 +1,1859 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CSF_B.bundle.scp.css",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CSF_B.bundle.scp.css",
       "PackagePath": "staticwebassets\\CSF_B.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\css\\argon-dashboard.css",
+      "PackagePath": "staticwebassets\\assets\\css\\argon-dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\css\\argon-dashboard.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\argon-dashboard.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\css\\argon-dashboard.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\argon-dashboard.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\css\\nucleo-icons.css",
+      "PackagePath": "staticwebassets\\assets\\css\\nucleo-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\css\\nucleo-svg.css",
+      "PackagePath": "staticwebassets\\assets\\css\\nucleo-svg.css"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\fonts\\nucleo-icons.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.eot"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\fonts\\nucleo-icons.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.svg"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\fonts\\nucleo-icons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\fonts\\nucleo-icons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\fonts\\nucleo-icons.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\fonts\\nucleo.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.eot"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\fonts\\nucleo.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.ttf"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\fonts\\nucleo.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.woff"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\fonts\\nucleo.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.woff2"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\js\\argon-dashboard.js",
+      "PackagePath": "staticwebassets\\assets\\js\\argon-dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\js\\argon-dashboard.js.map",
+      "PackagePath": "staticwebassets\\assets\\js\\argon-dashboard.js.map"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\js\\argon-dashboard.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\argon-dashboard.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\js\\core\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\core\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\js\\core\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\core\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\js\\core\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\core\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\js\\plugins\\Chart.extension.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\Chart.extension.js"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\js\\plugins\\bootstrap-notify.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\bootstrap-notify.js"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\js\\plugins\\chartjs.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\chartjs.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\js\\plugins\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\js\\plugins\\smooth-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\smooth-scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_alert.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_avatars.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_avatars.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_breadcrumbs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_breadcrumbs.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_cards.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_dark-version.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_dark-version.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_dropup.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_dropup.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_fixed-plugin.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_fixed-plugin.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_footer.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_gradients.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_header.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_info-areas.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_info-areas.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_misc.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_nav.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_navbar-vertical.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_navbar-vertical.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_popovers.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_popovers.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_progress.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_rtl.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_rtl.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_social-buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_tables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_tilt.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_tilt.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_timeline.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_timeline.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_tooltips.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_tooltips.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_typography.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_utilities-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_utilities-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_accordion.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_containers.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_helpers.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_maps.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_maps.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_placeholders.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_color-bg.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_color-bg.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\cards\\card-background.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\cards\\card-background.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\cards\\card-carousel.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\cards\\card-carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\custom\\_styles.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\custom\\_styles.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\custom\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\custom\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\forms\\_form-switch.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\forms\\_form-switch.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\forms\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\forms\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\forms\\_inputs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\forms\\_inputs.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\mixins\\_colored-shadows.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\mixins\\_colored-shadows.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\mixins\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\mixins\\_social-buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\mixins\\mixins.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\mixins\\mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\plugins\\free\\_flatpickr.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\plugins\\free\\_flatpickr.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\plugins\\free\\_nouislider.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\plugins\\free\\_nouislider.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\plugins\\free\\_perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\plugins\\free\\_perfect-scrollbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\plugins\\free\\_prism.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\plugins\\free\\_prism.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\plugins\\free\\plugins.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\plugins\\free\\plugins.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\theme.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\theme.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_animations.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_animations.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_avatars.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_avatars.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_cards-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_cards-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_cards.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_choices.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_choices.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_dark-version.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_dark-version.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_dropdowns.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_dropdowns.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_fixed-plugin.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_fixed-plugin.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_form-switch.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_form-switch.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_full-calendar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_full-calendar.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_header.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_info-areas.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_info-areas.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_misc-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_misc-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_misc.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_navbar-vertical.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_navbar-vertical.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_rtl.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_rtl.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_social-buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_table.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_table.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_timeline.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_timeline.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_utilities-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_utilities-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_virtual-reality.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_virtual-reality.scss"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\flex-slider.css",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\css\\flex-slider.css",
       "PackagePath": "staticwebassets\\css\\flex-slider.css"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\font-awesome.css",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\css\\font-awesome.css",
       "PackagePath": "staticwebassets\\css\\font-awesome.css"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\Flaticon.woff",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\css\\fonts\\Flaticon.woff",
       "PackagePath": "staticwebassets\\css\\fonts\\Flaticon.woff"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\FontAwesome.otf",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\css\\fonts\\FontAwesome.otf",
       "PackagePath": "staticwebassets\\css\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\flexslider-icon.eot",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\css\\fonts\\flexslider-icon.eot",
       "PackagePath": "staticwebassets\\css\\fonts\\flexslider-icon.eot"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\flexslider-icon.svg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\css\\fonts\\flexslider-icon.svg",
       "PackagePath": "staticwebassets\\css\\fonts\\flexslider-icon.svg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\flexslider-icon.ttf",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\css\\fonts\\flexslider-icon.ttf",
       "PackagePath": "staticwebassets\\css\\fonts\\flexslider-icon.ttf"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\flexslider-icon.woff",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\css\\fonts\\flexslider-icon.woff",
       "PackagePath": "staticwebassets\\css\\fonts\\flexslider-icon.woff"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\fontawesome-webfont.eot",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\css\\fonts\\fontawesome-webfont.eot",
       "PackagePath": "staticwebassets\\css\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\fontawesome-webfont.svg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\css\\fonts\\fontawesome-webfont.svg",
       "PackagePath": "staticwebassets\\css\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\fontawesome-webfont.ttf",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\css\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\css\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\fontawesome-webfont.woff",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\css\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\css\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\fontawesome-webfont.woff2",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\css\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\css\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\slick.eot",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\css\\fonts\\slick.eot",
       "PackagePath": "staticwebassets\\css\\fonts\\slick.eot"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\slick.svg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\css\\fonts\\slick.svg",
       "PackagePath": "staticwebassets\\css\\fonts\\slick.svg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\slick.ttf",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\css\\fonts\\slick.ttf",
       "PackagePath": "staticwebassets\\css\\fonts\\slick.ttf"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\fonts\\slick.woff",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\css\\fonts\\slick.woff",
       "PackagePath": "staticwebassets\\css\\fonts\\slick.woff"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\lightbox.css",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\css\\lightbox.css",
       "PackagePath": "staticwebassets\\css\\lightbox.css"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\owl-carousel.css",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\css\\owl-carousel.css",
       "PackagePath": "staticwebassets\\css\\owl-carousel.css"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\css\\templatemo-hexashop.css",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\css\\templatemo-hexashop.css",
       "PackagePath": "staticwebassets\\css\\templatemo-hexashop.css"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\about-left-image.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\about-left-image.jpg",
       "PackagePath": "staticwebassets\\images\\about-left-image.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\about-us-page-heading.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\about-us-page-heading.jpg",
       "PackagePath": "staticwebassets\\images\\about-us-page-heading.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\baner-right-image-01.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\baner-right-image-01.jpg",
       "PackagePath": "staticwebassets\\images\\baner-right-image-01.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\baner-right-image-02.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\baner-right-image-02.jpg",
       "PackagePath": "staticwebassets\\images\\baner-right-image-02.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\baner-right-image-03.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\baner-right-image-03.jpg",
       "PackagePath": "staticwebassets\\images\\baner-right-image-03.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\baner-right-image-04.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\baner-right-image-04.jpg",
       "PackagePath": "staticwebassets\\images\\baner-right-image-04.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\bangtuanhoan.png",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\bangtuanhoan.png",
       "PackagePath": "staticwebassets\\images\\bangtuanhoan.png"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\close.png",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\close.png",
       "PackagePath": "staticwebassets\\images\\close.png"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\explore-image-01.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\explore-image-01.jpg",
       "PackagePath": "staticwebassets\\images\\explore-image-01.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\explore-image-02.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\explore-image-02.jpg",
       "PackagePath": "staticwebassets\\images\\explore-image-02.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\instagram-01.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\instagram-01.jpg",
       "PackagePath": "staticwebassets\\images\\instagram-01.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\instagram-02.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\instagram-02.jpg",
       "PackagePath": "staticwebassets\\images\\instagram-02.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\instagram-03.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\instagram-03.jpg",
       "PackagePath": "staticwebassets\\images\\instagram-03.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\instagram-04.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\instagram-04.jpg",
       "PackagePath": "staticwebassets\\images\\instagram-04.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\instagram-05.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\instagram-05.jpg",
       "PackagePath": "staticwebassets\\images\\instagram-05.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\instagram-06.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\instagram-06.jpg",
       "PackagePath": "staticwebassets\\images\\instagram-06.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\kid-01.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\kid-01.jpg",
       "PackagePath": "staticwebassets\\images\\kid-01.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\kid-02.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\kid-02.jpg",
       "PackagePath": "staticwebassets\\images\\kid-02.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\kid-03.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\kid-03.jpg",
       "PackagePath": "staticwebassets\\images\\kid-03.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\lab_home.png",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\lab_home.png",
       "PackagePath": "staticwebassets\\images\\lab_home.png"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\left-banner-image.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\left-banner-image.jpg",
       "PackagePath": "staticwebassets\\images\\left-banner-image.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\loading.gif",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\loading.gif",
       "PackagePath": "staticwebassets\\images\\loading.gif"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\logo.png",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\logoOnly.png",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\logoOnly.png",
       "PackagePath": "staticwebassets\\images\\logoOnly.png"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\men-01.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\men-01.jpg",
       "PackagePath": "staticwebassets\\images\\men-01.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\men-02.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\men-02.jpg",
       "PackagePath": "staticwebassets\\images\\men-02.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\men-03.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\men-03.jpg",
       "PackagePath": "staticwebassets\\images\\men-03.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\next.png",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\next.png",
       "PackagePath": "staticwebassets\\images\\next.png"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\prev.png",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\prev.png",
       "PackagePath": "staticwebassets\\images\\prev.png"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\products-page-heading.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\products-page-heading.jpg",
       "PackagePath": "staticwebassets\\images\\products-page-heading.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\quiz_home.png",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\quiz_home.png",
       "PackagePath": "staticwebassets\\images\\quiz_home.png"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\service-01.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\service-01.jpg",
       "PackagePath": "staticwebassets\\images\\service-01.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\service-02.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\service-02.jpg",
       "PackagePath": "staticwebassets\\images\\service-02.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\service-03.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\service-03.jpg",
       "PackagePath": "staticwebassets\\images\\service-03.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\single-product-01.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\single-product-01.jpg",
       "PackagePath": "staticwebassets\\images\\single-product-01.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\single-product-02.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\single-product-02.jpg",
       "PackagePath": "staticwebassets\\images\\single-product-02.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\team-member-01.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\team-member-01.jpg",
       "PackagePath": "staticwebassets\\images\\team-member-01.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\team-member-02.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\team-member-02.jpg",
       "PackagePath": "staticwebassets\\images\\team-member-02.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\team-member-03.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\team-member-03.jpg",
       "PackagePath": "staticwebassets\\images\\team-member-03.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\theory_home.png",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\theory_home.png",
       "PackagePath": "staticwebassets\\images\\theory_home.png"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topic_1.png",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topic_1.png",
       "PackagePath": "staticwebassets\\images\\topic_1.png"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topic_2.png",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topic_2.png",
       "PackagePath": "staticwebassets\\images\\topic_2.png"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topic_3.png",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topic_3.png",
       "PackagePath": "staticwebassets\\images\\topic_3.png"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topic_4.png",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topic_4.png",
       "PackagePath": "staticwebassets\\images\\topic_4.png"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topic_5.png",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topic_5.png",
       "PackagePath": "staticwebassets\\images\\topic_5.png"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topic_6.png",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topic_6.png",
       "PackagePath": "staticwebassets\\images\\topic_6.png"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topic_7.png",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topic_7.png",
       "PackagePath": "staticwebassets\\images\\topic_7.png"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topic_8.png",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topic_8.png",
       "PackagePath": "staticwebassets\\images\\topic_8.png"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topic_9.png",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topic_9.png",
       "PackagePath": "staticwebassets\\images\\topic_9.png"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic1\\topic1-images-0.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic1\\topic1-images-0.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic1\\topic1-images-0.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic1\\topic1-images-1.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic1\\topic1-images-1.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic1\\topic1-images-1.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic1\\topic1-images-2.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic1\\topic1-images-2.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic1\\topic1-images-2.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic1\\topic1-images-3.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic1\\topic1-images-3.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic1\\topic1-images-3.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic1\\topic1-images-4.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic1\\topic1-images-4.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic1\\topic1-images-4.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic1\\topic1-images-5.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic1\\topic1-images-5.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic1\\topic1-images-5.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic1\\topic1-images-6.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic1\\topic1-images-6.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic1\\topic1-images-6.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic2\\topic2-images-0.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic2\\topic2-images-0.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic2\\topic2-images-0.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic2\\topic2-images-1.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic2\\topic2-images-1.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic2\\topic2-images-1.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic2\\topic2-images-2.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic2\\topic2-images-2.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic2\\topic2-images-2.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic2\\topic2-images-3.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic2\\topic2-images-3.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic2\\topic2-images-3.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic2\\topic2-images-4.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic2\\topic2-images-4.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic2\\topic2-images-4.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic2\\topic2-images-5.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic2\\topic2-images-5.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic2\\topic2-images-5.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic2\\topic2-images-6.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic2\\topic2-images-6.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic2\\topic2-images-6.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic2\\topic2-images-7.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic2\\topic2-images-7.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic2\\topic2-images-7.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-00.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-00.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-00.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-01.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-01.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-01.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-02.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-02.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-02.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-03.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-03.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-03.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-04.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-04.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-04.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-05.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-05.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-05.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-06.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-06.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-06.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-07.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-07.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-07.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-08.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-08.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-08.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-09.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-09.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-09.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-10.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-10.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-10.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-11.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-11.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-11.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-12.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-12.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-12.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-13.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-13.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-13.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-14.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic3\\topic3-images-14.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic3\\topic3-images-14.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-00.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-00.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-00.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-01.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-01.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-01.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-02.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-02.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-02.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-03.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-03.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-03.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-04.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-04.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-04.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-05.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-05.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-05.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-06.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-06.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-06.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-07.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-07.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-07.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-08.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-08.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-08.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-09.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-09.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-09.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-10.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-10.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-10.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-11.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-11.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-11.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-12.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-12.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-12.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-13.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-13.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-13.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-14.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-14.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-14.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-15.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-15.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-15.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-16.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-16.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-16.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-17.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-17.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-17.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-18.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-18.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-18.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-19.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-19.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-19.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-20.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-20.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-20.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-21.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic4\\topic4-images-21.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic4\\topic4-images-21.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-00.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-00.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-00.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-01.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-01.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-01.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-02.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-02.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-02.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-03.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-03.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-03.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-04.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-04.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-04.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-05.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-05.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-05.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-06.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-06.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-06.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-07.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-07.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-07.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-08.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-08.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-08.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-09.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-09.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-09.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-10.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-10.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-10.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-11.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-11.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-11.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-12.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-12.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-12.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-13.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-13.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-13.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-14.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-14.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-14.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-15.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-15.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-15.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-16.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-16.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-16.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-17.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-17.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-17.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-18.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-18.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-18.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-19.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-19.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-19.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-20.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-20.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-20.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-21.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-21.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-21.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-22.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-22.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-22.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-23.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-23.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-23.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-24.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-24.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-24.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-25.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-25.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-25.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-26.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic5\\topic5-images-26.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic5\\topic5-images-26.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-00.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-00.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-00.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-01.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-01.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-01.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-02.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-02.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-02.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-03.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-03.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-03.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-04.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-04.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-04.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-05.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-05.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-05.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-06.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-06.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-06.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-07.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-07.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-07.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-08.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-08.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-08.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-09.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-09.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-09.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-10.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-10.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-10.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-11.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-11.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-11.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-12.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-12.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-12.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-13.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-13.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-13.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-14.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-14.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-14.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-15.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-15.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-15.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-16.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-16.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-16.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-17.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-17.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-17.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-18.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-18.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-18.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-19.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-19.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-19.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-20.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-20.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-20.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-21.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-21.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-21.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-22.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-22.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-22.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-23.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic6\\topic6-images-23.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic6\\topic6-images-23.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-00.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-00.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-00.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-01.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-01.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-01.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-02.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-02.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-02.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-03.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-03.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-03.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-04.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-04.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-04.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-05.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-05.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-05.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-06.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-06.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-06.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-07.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-07.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-07.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-08.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-08.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-08.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-09.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-09.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-09.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-10.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-10.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-10.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-11.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-11.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-11.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-12.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-12.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-12.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-13.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-13.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-13.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-14.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-14.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-14.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-15.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-15.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-15.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-16.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-16.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-16.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-17.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-17.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-17.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-18.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-18.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-18.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-19.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-19.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-19.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-20.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-20.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-20.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-21.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-21.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-21.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-22.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-22.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-22.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-23.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-23.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-23.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-24.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-24.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-24.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-25.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic7\\topic7-images-25.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic7\\topic7-images-25.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-00.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-00.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic8\\topic8-images-00.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-01.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-01.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic8\\topic8-images-01.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-02.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-02.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic8\\topic8-images-02.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-03.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-03.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic8\\topic8-images-03.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-04.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-04.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic8\\topic8-images-04.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-05.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-05.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic8\\topic8-images-05.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-06.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-06.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic8\\topic8-images-06.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-07.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-07.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic8\\topic8-images-07.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-08.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-08.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic8\\topic8-images-08.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-10.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-10.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic8\\topic8-images-10.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-9.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic8\\topic8-images-9.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic8\\topic8-images-9.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-00.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-00.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-00.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-01.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-01.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-01.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-02.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-02.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-02.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-03.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-03.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-03.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-04.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-04.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-04.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-05.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-05.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-05.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-06.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-06.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-06.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-07.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-07.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-07.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-08.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-08.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-08.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-09.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-09.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-09.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-10.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-10.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-10.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-11.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-11.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-11.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-12.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-12.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-12.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-13.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-13.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-13.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-14.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-14.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-14.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-15.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-15.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-15.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-16.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-16.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-16.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-17.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-17.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-17.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-18.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-18.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-18.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-19.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-19.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-19.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-20.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-20.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-20.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-21.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-21.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-21.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-22.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-22.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-22.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-23.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-23.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-23.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-24.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-24.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-24.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-25.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-25.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-25.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-26.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-26.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-26.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-27.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-27.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-27.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-28.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-28.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-28.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-29.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-29.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-29.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-30.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\topics\\topic9\\topic9-images-30.jpg",
       "PackagePath": "staticwebassets\\images\\topics\\topic9\\topic9-images-30.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\white-logo.png",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\video_home.png",
+      "PackagePath": "staticwebassets\\images\\video_home.png"
+    },
+    {
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\white-logo.png",
       "PackagePath": "staticwebassets\\images\\white-logo.png"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\women-01.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\women-01.jpg",
       "PackagePath": "staticwebassets\\images\\women-01.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\women-02.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\women-02.jpg",
       "PackagePath": "staticwebassets\\images\\women-02.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\images\\women-03.jpg",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\images\\women-03.jpg",
       "PackagePath": "staticwebassets\\images\\women-03.jpg"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\accordions.js",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\js\\accordions.js",
       "PackagePath": "staticwebassets\\js\\accordions.js"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\custom.js",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\js\\custom.js",
       "PackagePath": "staticwebassets\\js\\custom.js"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\datepicker.js",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\js\\datepicker.js",
       "PackagePath": "staticwebassets\\js\\datepicker.js"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\imgfix.min.js",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\js\\imgfix.min.js",
       "PackagePath": "staticwebassets\\js\\imgfix.min.js"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\isotope.js",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\js\\isotope.js",
       "PackagePath": "staticwebassets\\js\\isotope.js"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\jquery-2.1.0.min.js",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\js\\jquery-2.1.0.min.js",
       "PackagePath": "staticwebassets\\js\\jquery-2.1.0.min.js"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\jquery.counterup.min.js",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\js\\jquery.counterup.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.counterup.min.js"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\lightbox.js",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\js\\lightbox.js",
       "PackagePath": "staticwebassets\\js\\lightbox.js"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\owl-carousel.js",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\js\\owl-carousel.js",
       "PackagePath": "staticwebassets\\js\\owl-carousel.js"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\pdf.mjs",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\js\\pdf.mjs",
       "PackagePath": "staticwebassets\\js\\pdf.mjs"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\pdf.mjs.map",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\js\\pdf.mjs.map",
       "PackagePath": "staticwebassets\\js\\pdf.mjs.map"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\pdf.sandbox.mjs",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\js\\pdf.sandbox.mjs",
       "PackagePath": "staticwebassets\\js\\pdf.sandbox.mjs"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\pdf.sandbox.mjs.map",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\js\\pdf.sandbox.mjs.map",
       "PackagePath": "staticwebassets\\js\\pdf.sandbox.mjs.map"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\pdf.worker.mjs",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\js\\pdf.worker.mjs",
       "PackagePath": "staticwebassets\\js\\pdf.worker.mjs"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\pdf.worker.mjs.map",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\js\\pdf.worker.mjs.map",
       "PackagePath": "staticwebassets\\js\\pdf.worker.mjs.map"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\popper.js",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\js\\popper.js",
       "PackagePath": "staticwebassets\\js\\popper.js"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\quantity.js",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\js\\quantity.js",
       "PackagePath": "staticwebassets\\js\\quantity.js"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\scrollreveal.min.js",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\js\\scrollreveal.min.js",
       "PackagePath": "staticwebassets\\js\\scrollreveal.min.js"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\slick.js",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\js\\slick.js",
       "PackagePath": "staticwebassets\\js\\slick.js"
     },
     {
-      "Id": "C:\\Users\\phamn\\OneDrive\\Máy tính\\CSF_B\\wwwroot\\js\\waypoints.min.js",
+      "Id": "C:\\Users\\phamn\\Data\\NoT\\Outsource\\ChemistrySoFun\\Chemistry-So-Fun\\CSF_B\\wwwroot\\js\\waypoints.min.js",
       "PackagePath": "staticwebassets\\js\\waypoints.min.js"
     },
     {

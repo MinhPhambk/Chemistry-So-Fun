@@ -33,14 +33,14 @@ namespace CSF_B.Models.DL
 
             modelBuilder.Entity<QuizDetail>(entity =>
             {
-                entity.HasNoKey();
-
                 entity.ToTable("QuizDetail");
+
+                entity.Property(e => e.Id).ValueGeneratedNever();
 
                 entity.Property(e => e.TopicId).HasMaxLength(50);
 
                 entity.HasOne(d => d.Topic)
-                    .WithMany()
+                    .WithMany(p => p.QuizDetails)
                     .HasForeignKey(d => d.TopicId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("CONSTRAINTOPIC");

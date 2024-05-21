@@ -15,11 +15,12 @@ namespace CSF_B.Models.BL.QuizDetailBL
 
         public async Task<string> CreateAsync(QuizDetailDTO dto)
         {
+            List<QuizDetailDTO> quizDetails = await GetQuizDetail();
             string re = "done";
             try
             {
                 QuizDetail quizDetail = new QuizDetail();
-                quizDetail.Id = dto.Id;
+                quizDetail.Id = quizDetails.OrderByDescending(q => q.Id).FirstOrDefault().Id + 1;
                 quizDetail.TopicId = dto.TopicId;
                 quizDetail.Question = dto.Question;
                 quizDetail.Answer1 = dto.Answer1;
@@ -71,7 +72,7 @@ namespace CSF_B.Models.BL.QuizDetailBL
             return listQuizDetailDTO;
         }
 
-        public async Task<List<QuizDetailDTO>> GetQuizDetailByTopic(string topicId)
+        public async Task<List<QuizDetailDTO>> Get10QuizDetailByTopic(string topicId)
         {
             List<QuizDetail> listQuizDetail = await dbContext.QuizDetails.ToListAsync();
             List<QuizDetailDTO> listQuizDetailDTO = new List<QuizDetailDTO>();
@@ -85,7 +86,12 @@ namespace CSF_B.Models.BL.QuizDetailBL
                 }
             }
 
-            return listQuizDetailDTO;
+            List<QuizDetailDTO> quiz10Random = new List<QuizDetailDTO>();
+            Random rng = new Random();
+            Func<QuizDetailDTO, int> orderByLambda = x => rng.Next();
+            quiz10Random = listQuizDetailDTO.OrderBy(orderByLambda).Take(10).ToList();
+
+            return quiz10Random;
         }
 
         public async Task<string> UpdateAsync(QuizDetailDTO dto)

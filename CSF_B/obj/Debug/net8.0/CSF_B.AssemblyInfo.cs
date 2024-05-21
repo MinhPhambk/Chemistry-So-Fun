@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSF_B")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04f11b7ce2bad01e1d9f5bbf06f620575d185fe0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSF_B")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSF_B")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -10,7 +10,6 @@ using CSF_B.Models.BL.QuizDetailBL;
 using CSF_B.Models.BL.VideoBL;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using System;
-using CSF_B.Models.DL;
 
 namespace CSF_B
 {

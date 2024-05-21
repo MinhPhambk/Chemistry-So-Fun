@@ -19,5 +19,6 @@ namespace CSF_B.Models.BL.VideoBL
         public string Name { get; set; }
         public string Description { get; set; }
         public string Link { get; set; }
+        public string LinkImg { get; set; }
     }
 }
